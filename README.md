@@ -36,7 +36,7 @@ cd Training
 sh base_same_0.6B.sh
 ```
 # How to Train the General Text Embedding using BOOM?
-To balance training costs while promoting generalization, train *m* models using Batch-Level Shuffling on differently sized data samples: { $k_1, k_2, ...,k_m$ }. The set {20, 40, 60, 80, 100} or {40, 60, 80, 100} has been found effective. Finally, merge the resulting models using Multi-SLERP from [MergeKit](https://github.com/arcee-ai/mergekit).
+To balance training costs while promoting generalization, train *m* models using Batch-Level Shuffling on differently sized data samples: { $k_1, k_2, ...,k_m$ }. The variants {20, 40, 60, 80, 100} or {40, 60, 80, 100} have been found effective. Finally, merge the resulting models using Multi-SLERP from [MergeKit](https://github.com/arcee-ai/mergekit).
 
  # How to Evaluate the General Text Embedding on MTEB?
  Update the model path in MTEB_test/bash.sh. And then, 
