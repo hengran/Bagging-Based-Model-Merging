@@ -27,7 +27,7 @@ Follow these steps to assemble the General-Full-Data:
    - We use six programming languages: go-v1, java-v1, python-v1, javascript-v1, php-v1, and ruby-v1.
    - Due to the large scale of the original data, we sample approximately 100,000 examples from each language for training.
 
-4. **Merge** all downloaded datasets to create the General-Full-Data.
+
 
 # How to Train the General Text Embedding using Batch-Level Shuffling?
 Take the Qwen3-0.6 for example:
